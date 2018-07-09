@@ -5,7 +5,7 @@ class AddGrade < ActiveRecord::Migration[5.1]
   :database => "db/artists.sqlite"
 )
     sql = <<-SQL
-    CREATE TABLE IF NOT EXISTS artists (
+    CREATE TABLE IF NOT EXISTS students (
     id INTEGER PRIMARY KEY,
     name STRING,
     genre TEXT,
